@@ -1,8 +1,7 @@
 # burger-pinn
 A Physics-Informed Neural Network for solving Burgers' equation.
 
-Reference paper: [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)
-
+Reference paper: ![Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)
 Reference paper on author's Github pages: https://maziarraissi.github.io/PINNs/
 
 ## Introduction
