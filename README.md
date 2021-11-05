@@ -24,10 +24,10 @@ Regarding the following initial and boundary conditions:
 ![u(t, x)](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%2C%20x%29) profile (Figure 1. in reference or [author's Github page](https://maziarraissi.github.io/assets/img/Burgers_CT_inference.png))  
 ![profile](https://github.com/314arhaam/burger-pinn/blob/main/graphics/u-profile.png)
 
-![u(t, x)](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%2C%20x%29) in Cartesian coordinates for t in {0.25, 0.50, 0.75} (Figure 1. in reference or [author's Github page](https://maziarraissi.github.io/assets/img/Burgers_CT_inference.png))  
+![u(t, x)](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%2C%20x%29) in Cartesian coordinates for ![](https://latex.codecogs.com/svg.latex?%5Cinline%20t%20%5Cin%20%5C%7B0.25%2C%200.5%2C%200.75%5C%7D) (Figure 1. in reference or [author's Github page](https://maziarraissi.github.io/assets/img/Burgers_CT_inference.png))  
 ![plots](https://github.com/314arhaam/burger-pinn/blob/main/graphics/u-vs-x.png)
 
 ![u(t, x)](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%2C%20x%29) in Cartesian coordinates for more t values  
 <p align=""center>
-  <img src="https://github.com/314arhaam/burger-pinn/blob/main/graphics/u-constant-time.png?raw=true" alt="u-constant-time.png" width=600 height=600 />
+  <img src="https://github.com/314arhaam/burger-pinn/blob/main/graphics/u-constant-time.png?raw=true" alt="u-constant-time.png" width=400 height=400 />
 </p>
