@@ -10,7 +10,7 @@ This work is an implementation of the reference paper above. In this work, a neu
 ### Problem details
 The governing PDE is:
 
-![Burgers' equation](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%20&plus;%20u%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20x%7D%20-%20%28%5Cfrac%7B0.01%7D%7B%5Cpi%7D%29%5Cfrac%7B%5Cpartial%5E2%20u%7D%7B%5Cpartial%20t%5E2%7D%20%3D%200)
+![Burgers' equation](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5C%20%5Cfrac%7B%5Cpartial%7Bu%7D%7D%7B%5Cpartial%7Bt%7D%7D&plus;u%5Cfrac%7B%5Cpartial%7Bu%7D%7D%7B%5Cpartial%7Bx%7D%7D-%28%5Cfrac%7B0.01%7D%7B%5Cpi%7D%29%5Cfrac%7B%5Cpartial%5E2%7Bu%7D%7D%7B%5Cpartial%7Bx%5E2%7D%7D%3D0)
 
 Which is solved in the following spatial and temporal domain:
 
