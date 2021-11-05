@@ -1,11 +1,11 @@
 # burger-pinn
 A Physics-Informed Neural Network for solving Burgers' equation.
 
-Reference paper: [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)  
-Reference paper on author's Github pages: https://maziarraissi.github.io/PINNs/
+Ref.: [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)  
+Author's Github pages: https://maziarraissi.github.io/PINNs/
 
 ## Introduction
-In this work, a neural network is trained to solve Burgers' equation, a well-known PDE, for a given set of BCs and an IC. To train this model, certain number of points on the both boundaries and on the initial timestep were sampled, as input data, called "data" points, to compute MSE loss function, in addition to another set of points on the main domain of the problem, or "collocation" points to penalize the network in case the prediction on this set is not consistent with the governing PDE.
+This work is an implementation of the reference paper above. In this work, a neural network is trained to solve Burgers' equation, a well-known PDE, for a given set of BCs and an IC. To train this model, certain number of points on the both boundaries and on the initial timestep were sampled, as input data, called "data" points, to compute MSE loss function, in addition to another set of points on the main domain of the problem, or "collocation" points to penalize the network in case the prediction on this set is not consistent with the governing PDE.
 
 ### Problem details
 The governing PDE is:
