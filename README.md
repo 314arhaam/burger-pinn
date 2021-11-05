@@ -28,4 +28,4 @@ Regarding the following initial and boundary conditions:
 ![plots](https://github.com/314arhaam/burger-pinn/blob/main/graphics/u-vs-x.png)
 
 ![u(t, x)](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%2C%20x%29) in Cartesian coordinates for more t values  
-<div style="text-align:center"><img src="https://github.com/314arhaam/burger-pinn/blob/main/graphics/u-constant-time.png?raw=true" alt="u-constant-time.png" width=600 height=600></div>
+<div style="text-align:center"><img src="https://github.com/314arhaam/burger-pinn/blob/main/graphics/u-constant-time.png?raw=true" alt="u-constant-time.png" width=600 height=600 /></div>
