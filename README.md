@@ -1,6 +1,6 @@
 # burger-pinn
 A Physics-Informed Neural Network for solving Burgers' equation:
-[](https://latex.codecogs.com/png.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%20&plus;%20u%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20x%7D%20-%20%28%5Cfrac%7B0.01%7D%7B%5Cpi%7D%29%5Cfrac%7B%5Cpartial%5E2%20u%7D%7B%5Cpartial%20t%5E2%7D%20%3D%200%5C%5C%5C%5C%200%5Cleq%7Bt%7D%5Cleq%7B1%7D%20%5C%20%2C%20%5C%20-1%3Cx%3C&plus;1%5C%5C%5C%5C%20u%280%2Ct%29%20%3D%20-sin%28%5Cpi%7Bx%7D%29%5C%5C%5C%5C%20u%28t%2C&plus;1%29%3D0%5C%5C%20u%28t%2C-1%29%3D0)
+[eq](https://latex.codecogs.com/png.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5C%20%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20t%7D%20&plus;%20u%5Cfrac%7B%5Cpartial%20u%7D%7B%5Cpartial%20x%7D%20-%20%28%5Cfrac%7B0.01%7D%7B%5Cpi%7D%29%5Cfrac%7B%5Cpartial%5E2%20u%7D%7B%5Cpartial%20t%5E2%7D%20%3D%200%5C%5C%5C%5C%200%5Cleq%7Bt%7D%5Cleq%7B1%7D%20%5C%20%2C%20%5C%20-1%3Cx%3C&plus;1%5C%5C%5C%5C%20u%280%2Ct%29%20%3D%20-sin%28%5Cpi%7Bx%7D%29%5C%5C%5C%5C%20u%28t%2C&plus;1%29%3D0%5C%5C%20u%28t%2C-1%29%3D0)
 Reference paper: [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)
 Reference paper on author's Github pages: https://maziarraissi.github.io/PINNs/
 
