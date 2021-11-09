@@ -32,3 +32,6 @@ Regarding the following initial and boundary conditions:
 <p align=""center>
   <img src="https://github.com/314arhaam/burger-pinn/blob/main/graphics/u-constant-time.png?raw=true" alt="u-constant-time.png" width=400 height=400 />
 </p>
+
+# Note
+This implementation is based on [Tensorflow 2.0](https://www.tensorflow.org/guide/effective_tf2) package and made possible by [Google Colabratory](https://colab.research.google.com) GPU.
