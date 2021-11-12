@@ -11,18 +11,18 @@ To train this model, certain number of points on the both boundaries and on the 
 ### Problem details
 The governing PDE is:
 
-![Burgers' equation](https://latex.codecogs.com/png.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5C%20%5Cfrac%7B%5Cpartial%7Bu%7D%7D%7B%5Cpartial%7Bt%7D%7D&plus;u%5Cfrac%7B%5Cpartial%7Bu%7D%7D%7B%5Cpartial%7Bx%7D%7D-%28%5Cfrac%7B0.01%7D%7B%5Cpi%7D%29%5Cfrac%7B%5Cpartial%5E2%7Bu%7D%7D%7B%5Cpartial%7Bx%5E2%7D%7D%3D0)
+![Burgers' equation](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5C%20%5Cfrac%7B%5Cpartial%7Bu%7D%7D%7B%5Cpartial%7Bt%7D%7D&plus;u%5Cfrac%7B%5Cpartial%7Bu%7D%7D%7B%5Cpartial%7Bx%7D%7D-%28%5Cfrac%7B0.01%7D%7B%5Cpi%7D%29%5Cfrac%7B%5Cpartial%5E2%7Bu%7D%7D%7B%5Cpartial%7Bx%5E2%7D%7D%3D0)
 
 Which is solved in the following spatial and temporal domain:
 
-![0<=t<=1 -1<=x<=+1](https://latex.codecogs.com/png.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5C%200%5Cleq%7Bt%7D%5Cleq%7B1%7D%20%5C%20%2C%20%5C%20-1%5Cleq%7Bx%7D%5Cleq%7B&plus;1%7D)
+![0<=t<=1 -1<=x<=+1](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5C%200%5Cleq%7Bt%7D%5Cleq%7B1%7D%20%5C%20%2C%20%5C%20-1%5Cleq%7Bx%7D%5Cleq%7B&plus;1%7D)
 
 Regarding the following initial and boundary conditions:
 
-![ICBC](https://latex.codecogs.com/png.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5Cu%280%2Cx%29%20%3D%20-sin%28%5Cpi%7Bx%7D%29%20%5C%5Cu%28t%2C&plus;1%29%3D0%5C%5C%20u%28t%2C-1%29%3D0)
+![ICBC](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5Cu%280%2Cx%29%20%3D%20-sin%28%5Cpi%7Bx%7D%29%20%5C%5Cu%28t%2C&plus;1%29%3D0%5C%5C%20u%28t%2C-1%29%3D0)
 
 ## Results
-![u(t, x)](https://latex.codecogs.com/png.latex?%5Cinline%20u%28t%2C%20x%29) profile (Figure 1. in reference or [author's Github page](https://maziarraissi.github.io/assets/img/Burgers_CT_inference.png))  
+![u(t, x)](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%2C%20x%29) profile (Figure 1. in reference or [author's Github page](https://maziarraissi.github.io/assets/img/Burgers_CT_inference.png))  
 ![profile](https://github.com/314arhaam/burger-pinn/blob/main/graphics/u-profile.png)
 
 ![u(t, x)](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%2C%20x%29) in Cartesian coordinates for ![](https://latex.codecogs.com/svg.latex?%5Cinline%20t%20%5Cin%20%5C%7B0.25%2C%200.5%2C%200.75%5C%7D) (Figure 1. in reference or [author's Github page](https://maziarraissi.github.io/assets/img/Burgers_CT_inference.png))  
