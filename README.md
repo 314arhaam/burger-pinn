@@ -2,7 +2,9 @@
 A Physics-Informed Neural Network for solving Burgers' equation.
 
 Ref.: [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)  
-Author's Github page: https://maziarraissi.github.io/PINNs/
+Author's Github page: https://maziarraissi.github.io/PINNs/  
+
+Check out my other PINN project: [heat-pinn](https://github.com/314arhaam/heat-pinn)
 
 ## Introduction
 This work is an implementation of the reference paper above. In this work, a neural network is trained to solve Burgers' equation, a well-known PDE, for a given set of BCs and an IC.  
