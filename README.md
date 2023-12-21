@@ -21,7 +21,16 @@ Which is solved in the following spatial and temporal domain:
 
 Regarding the following initial and boundary conditions:
 
-![ICBC](https://latex.codecogs.com/svg.latex?%5Cdpi%7B120%7D%20%5Clarge%20%5C%5Cu%280%2Cx%29%20%3D%20-sin%28%5Cpi%7Bx%7D%29%20%5C%5Cu%28t%2C&plus;1%29%3D0%5C%5C%20u%28t%2C-1%29%3D0)
+$$
+\begin{equation}
+  \begin{cases}
+    u(0, x) = -\sin({\pi x})\\
+    u(t, +1) = 0.0 \\
+    u(t, -1) = 0.0 \\  
+  \end{cases}
+\end{equation}
+$$
+
 
 ## Results
 ![u(t, x)](https://latex.codecogs.com/svg.latex?%5Cinline%20u%28t%2C%20x%29) profile (Figure 1. in reference or [author's Github page](https://maziarraissi.github.io/assets/img/Burgers_CT_inference.png))  
