@@ -1,7 +1,7 @@
 # 🍔 $\mathbf{Burger-PINN}$ ⚛️
 A Physics-Informed Neural Network for solving **Burgers' equation**.
 
-Ref.: [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)  
+Reference: [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)  
 Author's Github page: https://maziarraissi.github.io/PINNs/  
 
 Check out my other PINN project: [heat-pinn](https://github.com/314arhaam/heat-pinn)
