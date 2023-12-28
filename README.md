@@ -1,4 +1,4 @@
-# 🍔 $\mathbf{Burger-PINN}$ ⚛️
+# 🍔 $\textbf{Burger-PINN}$ ⚛️
 A Physics-Informed Neural Network for solving **Burgers' equation**.
 
 Reference: [Physics Informed Deep Learning (Part I): Data-driven Solutions of Nonlinear Partial Differential Equations](https://arxiv.org/abs/1711.10561)  
