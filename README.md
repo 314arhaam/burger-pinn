@@ -8,6 +8,7 @@ Check out my other PINN project: [heat-pinn](https://github.com/314arhaam/heat-p
 
 ## Introduction
 This work is an implementation of the reference paper above. In this work, a neural network is trained to solve Burgers' equation, a well-known PDE, for a given set of BCs and an IC.  
+
 To train this model, certain number of points on the both boundaries and on the initial timestep were sampled, as input data, called **data points**, to compute MSE loss function, in addition to another set of points on the main domain of the problem, or **collocation points** to penalize the network in case the prediction on this set is not consistent with the governing PDE.
 
 ### Problem details
